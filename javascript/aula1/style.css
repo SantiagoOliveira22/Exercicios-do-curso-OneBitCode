@@ -1,0 +1,15 @@
+.container {
+  background-color: red;
+  color: white;
+  margin-left: 50% auto;
+  text-align: center;
+  padding: 30px;
+}
+
+.content {
+  background-color: black;
+  margin-left: 50% auto;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
