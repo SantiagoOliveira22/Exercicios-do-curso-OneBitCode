@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.flex-container {
+  box-sizing: border-box; /* faz que o padding não ultrapassem o box-sizing e evitar criar scrollbar*/
+  padding: 10px;
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  /*column-gap: 10px; /*espaçamento entre as colunas*/
+  /*flex-wrap: wrap; /*blocos em linha*/
+  /*row-gap: 10px; /*separação das linhas horizontais, junto com flex-wrap*/
+
+  gap: 10px; /*separação de linhas verticais*/
+  /*flex-wrap: wrap;*/
+  /*flex-direction: ; /*direção, o padrão é row, row-reverse - ultima coluna fica em primeiro e a primeira em ultimo,collum-reverse*/
+
+  /*flex-wrap: wrap; /*padrão nowrap, wrap - quebra a medida que toca o bloco no final da pagina, wrap-reverse*/
+
+  /* flex-flow: col; /*col, column nowrap - se vai quebrar ou não, row-reverse wrap-reverse*/
+
+  /*Alinhamentos*/
+  /*align-items: center; /*center, flex-start, flex-end / função vertical*/
+
+  /* justify-content: center; /*center, flex-start, flex-end  / função é de forma horizontal*/
+
+  /* align-content: flex-end; /*some com o espaçamente entre os itens*/
+}
+.flex-item {
+  background-color: #ff0044;
+  /* width: 600px;
+  height: 200px;*/
+  /*flex-basis: 150px; /*dar base ha algo - largura para o item*/
+  /*flex-grow: 1; /*faz o preenchimento do espaço que sobra*/
+  /*flex-shrink: 1; /*dimunuição igual para a todos*/
+  flex: 1 1 150px;
+}
+
+/*.item2{
+  flex-grow: 2; / preenche mais espaço de um item especifico
+}*/
+
+/*.item3 {
+  flex-shrink: 3;
+}*/
+
+/*.item3 {
+  flex: 1 3 150px;
+}*/
