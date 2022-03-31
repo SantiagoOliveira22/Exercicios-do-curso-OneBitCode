@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  box-sizing: border-box;
+  background-color: black;
+  min-height: 100vh;
+}
+
+header {
+  height: 55px;
+  background-color: #bbb;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between; /*deixa um de cada lado da tela*/
+  align-items: center; /*centraliza os elementos*/
+}
+
+.logo {
+  width: 45px;
+  height: 40px;
+  background-color: #ff0000;
+  border-radius: 10px;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  gap: 10px; /*separa os elementos*/
+  flex-wrap: wrap; /*para ter a quebra na página quando responsivo*/
+  margin-left: 10px; /*para não grudar no logo*/
+}
+
+.navItens {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.flex-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap; /*para quebrar para ter responsividade*/
+  justify-content: center; /*centralizar*/
+  max-width: 1000px; /*quando chegar na responsividade vai diminuir - max-width*/
+  gap: 20px; /*linhas de separação vertival entre os itens*/
+  margin: 20px auto; /*forma de alinhar*/
+}
+
+.item {
+  max-width: 300px; /*melhora a responsividade*/
+  height: 250px;
+  background-color: #bbb;
+  flex: 1 1 250px; /*espaçamentos em baixo, cima e laterais*/
+  display: flex; /*para deixar o conteudo do item centralizado*/
+  align-items: center; /*para deixar o conteudo do item centralizado*/
+  justify-content: center; /*para deixar o conteudo do item centralizado*/
+}
+
+footer {
+  width: 100%;
+  height: 45px;
+  background-color: #bbb;
+}
