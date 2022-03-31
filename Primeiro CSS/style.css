@@ -1,0 +1,27 @@
+body {
+  background-image: url('https://content.fortune.com/wp-content/uploads/2020/08/GettyImages-1219672105_web.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: #ff0000;
+  border: 2px dashed yellow;
+}
+
+h2 {
+  color: #0000ff;
+  font-size: 20px;
+}
+
+li {
+  color: #00ffff;
+}
+
+.moon {
+  color: black;
+}
+
+#outras {
+  color: brown;
+}
