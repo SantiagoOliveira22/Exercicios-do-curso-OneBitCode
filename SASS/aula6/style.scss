@@ -1,0 +1,29 @@
+.btn {
+  width: 125px;
+  padding: 10px 0px;
+  border-radius: 20px;
+  display: block;
+  margin-top: 10px;
+
+  //Heranças
+  &.btn-roxo {
+    background-color: purple;
+    color: white;
+  }
+
+  &.btn-amarelo {
+    background-color: yellow;
+  }
+
+  &#btn-azul {
+    background-color: blue;
+    color: white;
+  }
+}
+
+//usando extends - precisa tira a classe btn do index
+.btn-roxo {
+  @extend .btn;
+  background-color: purple;
+  color: white;
+}
